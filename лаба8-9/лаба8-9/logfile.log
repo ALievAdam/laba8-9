@@ -1,0 +1,14 @@
+2021-12-07 14:00:35,087 - ERROR - <module>: 260 - Ошибка неверного типа данных!
+Traceback (most recent call last):
+  File "C:\Users\adam-\OneDrive - УрФУ\Documents\GitHub\laba8-9\лаба8-9\лаба8-9\лаба8_9.py", line 60, in <module>
+    k, l = map(int, input("Введите через пробел номер вертикали и горизонтали для первой фигуры: ").split())
+ValueError: not enough values to unpack (expected 2, got 0)
+2021-12-07 14:00:58,797 - ERROR - <module>: 260 - Ошибка неверного типа данных!
+Traceback (most recent call last):
+  File "C:\Users\adam-\OneDrive - УрФУ\Documents\GitHub\laba8-9\лаба8-9\лаба8-9\лаба8_9.py", line 60, in <module>
+    k, l = map(int, input("Введите через пробел номер вертикали и горизонтали для первой фигуры: ").split())
+ValueError: not enough values to unpack (expected 2, got 1)
+2021-12-07 14:01:26,087 - INFO - check_color: 9 - Равны ли остатки от деления на 2 суммы ( 1 и 2 ) и суммы ( 1 и 3 ) 
+2021-12-07 14:01:26,088 - INFO - check_color: 20 - Остатки от деления на 2 - 1 и 0, они не равны 
+2021-12-07 14:01:26,090 - INFO - Rook_move: 153 - 1 = 1 или 2 = 3
+2021-12-07 14:01:26,090 - INFO - Rook_move: 154 - Так как ладья находится на одной вертикали или горизонтали - она угрожает пешке
