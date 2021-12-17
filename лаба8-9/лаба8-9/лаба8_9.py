@@ -1,9 +1,3 @@
-import logging
-
-logging.basicConfig(filename="logfile.log", level=logging.INFO, format="%(asctime)s - %(levelname)s - %(funcName)s: "
-                                                                       "%(lineno)d - %(message)s")
-log = logging.getLogger()
-
 
 def check_color(x1, y1, x2, y2):  # Функция опредения цвета поля
     logging.info("Равны ли остатки от деления на 2 суммы ( %s и %s ) и суммы ( %s и %s ) " % (x1, y1, x2, y2))
